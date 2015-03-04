@@ -19,6 +19,7 @@ using namespace std; //I/O Library Under std namespace
 int main(int argc, char** argv) {
     //Define Variables
     int numPods,psPod,totPs;
+    cout<<"Hello"<<endl;
     cout<<"Press return after entering a number."<<endl;
     cout<<"Enter the number of pods:"<<endl;
     cin>>numPods;
@@ -27,9 +28,9 @@ int main(int argc, char** argv) {
     totPs=numPods*psPod;
     cout<<"If you have "<<numPods<<" pea pods"<<endl;
     cout<<"and "<<psPod<<" peas in each pod, then"<<endl;
-    cout<<"you have "<<totPs<<" peas in all the pods."<<endl;;
+    cout<<"you have "<<totPs<<" peas in all the pods."<<endl;
+    cout<<"Good-bye"<<endl;
     
     //Exit Stage Right
     return 0;
 }
-
