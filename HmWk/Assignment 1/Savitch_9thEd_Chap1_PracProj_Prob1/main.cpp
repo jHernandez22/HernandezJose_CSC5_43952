@@ -27,7 +27,7 @@ int main(int argc, char** argv) {
     totPs=numPods*psPod;
     cout<<"If you have "<<numPods<<" pea pods"<<endl;
     cout<<"and "<<psPod<<" peas in each pod, then"<<endl;
-    cout<<"you have "<<totPs<<" peas in all the pods."<<endl;;
+    cout<<"you have "<<totPs<<" peas in all the pods."<<endl;
     
     //Exit Stage Right
     return 0;
