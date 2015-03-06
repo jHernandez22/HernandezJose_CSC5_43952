@@ -7,7 +7,6 @@
 
 //System Libraries
 #include <iostream>//I/O Library
-#include <cmath>//I/O Library
 using namespace std; //I/O Library Under std namespace
 
 //User Libraries
@@ -19,17 +18,16 @@ using namespace std; //I/O Library Under std namespace
 //Execution Start Here!
 int main(int argc, char** argv) {
     //Define Variables
-    int fncWth,fncLnth,totPrim;
+    int fncWth,fncHght,totLnth,area;
     cout<<"Press return after entering a number."<<endl;
-    cout<<"Enter the Width of Fence:"<<endl;
-    cin>>fncLnth;
-    cout<<"Enter the Length of Fence:"<<endl;
+    cout<<"Enter the Width of Fence (in feet):"<<endl;
     cin>>fncWth;
-    totPrim=(fncWth*2)+(fncLnth*2);
-    cout<<"If you have a length of "<<fncLnth<<endl;
-    cout<<"and a with of "<<fncWth<<", then"<<endl;
-    cout<<"the total perimeter of the rectangle is "<<totPrim<<"."<<endl;
-    
+    cout<<"Enter the Height of Fence (in feet):"<<endl;
+    cin>>fncHght;
+    totLnth=fncWth*2+fncHght*2;
+    cout<<"If you have a Width of "<<fncHght<<" feet"<<endl;
+    cout<<"and a Height of "<<fncWth<<" feet, then"<<endl;
+    cout<<"the total total length of the rectangle is "<<totLnth<<" feet long."<<endl;
     //Exit Stage Right
     return 0;
 }
