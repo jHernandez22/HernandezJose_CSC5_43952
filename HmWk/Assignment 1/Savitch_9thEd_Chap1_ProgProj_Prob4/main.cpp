@@ -22,10 +22,12 @@ const float CNVFTMT=3.048e-1f;//Conversion form feet to meters
 int main(int argc, char** argv) {
     //Declare Variables
     float time,dstnce;
+    
     //Prompt for time
     cout<<"Free Fall Problem"<<endl;
     cout<<"Input the time x.xx (seconds)"<<endl;
     cin>>time;
+   
     //Calculate the distance
     //dstnce=1/2*G*time*time;//Does not Work!!!!!
     //dstnce=static_cast<float>(1)/2*G*time*time;
@@ -34,6 +36,7 @@ int main(int argc, char** argv) {
     //dstnce=G*1/2*time*time;
     //dstnce=0.5f*G*time*time;
     dstnce=5e-1f*G*time*time;
+   
     //Output the results
     cout<<"Distance Fallen = "<<dstnce<<"(feet)"<<endl;
     cout<<"Distance Fallen = "<<dstnce*CNVFTMT<<"(meter)"<<endl;
