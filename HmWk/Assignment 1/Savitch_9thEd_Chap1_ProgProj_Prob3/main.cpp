@@ -16,7 +16,6 @@ using namespace std; //I/O Library Under std namespace
 //System Prototype
 
 //Execution Start Here!
-
 int main(int argc, char** argv) {
     //Declare Variables
     int numQtrs,NumDims,numNkls,totSum;
