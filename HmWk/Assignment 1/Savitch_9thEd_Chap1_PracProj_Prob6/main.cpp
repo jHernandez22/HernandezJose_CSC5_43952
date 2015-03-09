@@ -45,6 +45,7 @@ int main(int argc, char** argv) {
     //int main int argc, char** argv {
     //Produces this Result
     //main.cpp:27:10: error: expected initializer before ‘int’
+   
     //Declare Variables
     int numPods,psPod,totPs;
     cout<<"Press return after entering a number."<<endl;
@@ -52,6 +53,8 @@ int main(int argc, char** argv) {
     //cou<<"Press return after entering a number."<<endl;
     //Produces this Result
     //main.cpp:50:5: error: ‘cou’ was not declared in this scope
+    
+    //Input Variables
     cout<<"Enter the number of pods:"<<endl;
     cin>>numPods;
     //This error
@@ -62,13 +65,17 @@ int main(int argc, char** argv) {
     //This error
     //cout<<"Enter the number of peas in a pod:"<<endl
     //Produces this Result
-    //main.cpp:62:5: error: expected ‘;’ before ‘cin’
+    //main.cpp:73:5: error: expected ‘;’ before ‘cin’
     //This error
-    //cout<<"Enter the number of peas in a pod:"<<;
+    //cout<<"Enter the number of peas in a pod:"<<
     //Produces this Result
     //main.cpp:61:49: error: expected primary-expression before ‘;’ token
     cin>>psPod;
+    
+    //Calculate
     totPs=numPods*psPod;
+    
+    //Output Results
     cout<<"If you have "<<numPods<<" pea pods"<<endl;
     //This error
     //cout"If you have "<<numPods<<" pea pods"<<endl;
