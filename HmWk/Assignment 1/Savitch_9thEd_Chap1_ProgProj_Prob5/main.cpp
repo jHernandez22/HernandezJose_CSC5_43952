@@ -16,14 +16,15 @@ using namespace std; //I/O Library Under std namespace
 //System Prototype
 
 //Execution Start Here!
-
 int main(int argc, char** argv) {
     //Declare Variables
-//Decalsre Variables
     char c;//Character to be used to display c
+    
     //Prompt for the letter C to be used
     cout<<"What letter would you like to us for Big C"<<endl;
     cin>>c;
+    
+    //Output Big C
     cout<<"   "<<c<<c<<c<<c<<endl;
     cout<<"  "<<c<<"    "<<c<<endl;
     cout<<" "<<c<<"      "<<c<<endl;
@@ -34,6 +35,7 @@ int main(int argc, char** argv) {
     cout<<" "<<c<<"      "<<c<<endl;
     cout<<"  "<<c<<"    "<<c<<endl;
     cout<<"   "<<c<<c<<c<<c<<endl;
+    
     //Exit Stage Right!
     return 0;
 }

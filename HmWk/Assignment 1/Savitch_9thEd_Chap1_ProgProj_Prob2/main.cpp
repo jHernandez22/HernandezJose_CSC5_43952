@@ -18,7 +18,6 @@ using namespace std; //I/O Library Under std namespace
 //Execution Start Here!
 
 int main(int argc, char** argv) {
-    //Declare Variables
     //output Top 60*'s C S ! 60*'s bottom 
     //Computer Science is Cool Stuff!!!
     cout<<"**************************************************"<<endl;

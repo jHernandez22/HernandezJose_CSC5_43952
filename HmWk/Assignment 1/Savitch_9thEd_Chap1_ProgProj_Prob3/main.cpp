@@ -19,7 +19,7 @@ using namespace std; //I/O Library Under std namespace
 
 int main(int argc, char** argv) {
     //Declare Variables
-    float numQtrs,NumDims,numNkls,totSum;
+    int numQtrs,NumDims,numNkls,totSum;
    
     //Input Numbers
     cout<<"Press return after entering a Number"<<endl;
@@ -32,6 +32,8 @@ int main(int argc, char** argv) {
    
     //Calculate the Total Sum in Cents
     totSum=numQtrs*25+NumDims*10+numNkls*5;
+    
+    //Output Results
     cout<<"The Total Sum of "<<numQtrs<<" Quarters, "<<NumDims<<" Dimes, and ";
     cout<<numNkls<<" Nickels is "<<totSum<<" cents."<<endl;
    
