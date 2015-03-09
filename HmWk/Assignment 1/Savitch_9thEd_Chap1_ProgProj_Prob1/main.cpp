@@ -20,10 +20,12 @@ int main(int argc, char** argv) {
     //Declare Variables
      int num1,num2,sum,product;
     cout<<"Press return after entering an Number."<<endl;
-    cout<<"Enter the first integer."<<endl;
-    cin>>num1;
-    cout<<"Enter the second integer."<<endl;
-    cin>>num2;
+    //cout<<"Enter the first integer."<<endl;
+    //cin>>num1;
+    //cout<<"Enter the second integer."<<endl;
+    //cin>>num2;
+    cout<<"Enter two integer."<<endl;
+    cin>>num1>>num2;
     sum=num1+num2;
     product=num1*num2;
     cout<<"The sum of "<<num1<<" and "<<num2<<" is "<<sum<<"."<<endl;
