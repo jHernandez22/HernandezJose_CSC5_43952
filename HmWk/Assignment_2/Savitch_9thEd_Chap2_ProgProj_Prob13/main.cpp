@@ -11,7 +11,7 @@ using namespace std; //I/O Library Under std namespace
 
 //User Libraries
 
-//Global Libraries
+//Global Constants
 
 //System Prototype
 
